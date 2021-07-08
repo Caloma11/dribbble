@@ -1,0 +1,71 @@
+.card-container {
+  width: 300px;
+  margin-top: 64px;
+  display: inline-block;
+}
+
+.card-white-img {
+  background-image: url('https://avatars.githubusercontent.com/u/33505647?v=4');
+  height: 180px;
+  background-position: center;
+  background-size: cover;
+}
+
+.card-white {
+  background-color: white;
+  padding: 8px;
+}
+
+.card-white .list-inline {
+  text-align: right;
+  padding: 8px;
+  font-size: 16px;
+  color: darkgray;
+}
+
+.list-inline i {
+  margin: 0 4px;
+}
+
+.btn {
+  background-color: gray;
+  color: black;
+  padding: 8px 8px;
+  border-radius: 4px;
+  margin-top: 8px;
+  margin-left: 8px;
+  display: inline-block;
+  opacity: 0;
+}
+
+.card-white-img:hover .btn {
+  opacity: 1;
+  transition: 2s;
+}
+
+.btn:hover {
+  color: rgba(0,0,0, .7);
+}
+
+.card-avatar {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.card-user {
+  padding: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.card-user a {
+  color: cornflowerblue;
+  font-weight: bold;
+}
+
+.cards {
+  display: flex;
+
+}
